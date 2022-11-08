@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>Christopher Rinehardt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="simple.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="panel">
+        <a href="#about">ABOUT</a> 
+        <a href="#projects">PORTFOLIO</a> 
+         <a href="#contact">CONTACT</a>
+    </div>
+
+    <div class="introduction">
+        <p>Hello &#9996, </p>
+        <p>I'm <b>Chris</b>  </p> 
+        <p id="jobTitle">
+        A <i>fullstack</i> web developer
+        </p> 
+        <button id="resume">Resume</button>
+    </div>
+    <div id="about">
+    <h1 id="information">About Me</h1>
+    <p id="bio">Hello, my name is Christopher Rinehardt and I am a student at Temple University in Philadelphia, PA. My major is Management Information Systems and I have an interest in web development. Throughout my time in college, I have developed a passion for coding. In my spare time, I am always studying the fundamentals of development and honing my skill set. My goal is to become a full stack developer. This requires a solid understanding of both front end and back end frameworks and concepts. This website was created using a combination of HTML, CSS, and Vanilla JavaScript. Thank you for visiting my personal site! Be sure to leave a comment below.</p>
+    <br>
+    
+    </div>
+    <div id="projects">
+    <h1 id="work">Portfolio</h1>
+    <br>
+    
+    <img src="Calculator_Screenshot.png" alt="Calculator Image" height="400" width 250>
+    <br>
+    <h1>Calculator</h1>
+    <p>This calculator application lets user perform basic mathematical operations. Its layout is similar to the one found on iPhones and MacBooks. As a bonus feature, I decided to create a button that would allow the user to change the color of the operator buttons. It takes in a number as an input and maps that number to a color. Whichever color matches the key becomeds the color of the buttons. If the user enters a number that is not found on the map, the color will change back to the default color.</p>
+    <br>
+    <button class="gitHub"><i class="fa fa-github"></i>  GITHUB</button>
+    <button class="webLink"><i class="fa fa-chain"></i> SITE</button>
+    <br>
+    
+    <img src="Weather.png" alt="Weather Site Image" height="400" width="400">
+    <br>
+    <h1>Weather App</h1>
+    <p>This Weather data site allows the user to enter a city and get basic weather data such as temperature, humidity, and wind speed. It recieves data from openweatherapi and maps it to the correct element. Depending on the weather description, the background will also change. For example, if the weather is rainy, the background will change to show rain. The same also holds true for snow, fog, and sunny weather.</p>
+    <br>
+    <button class="gitHub"><i class="fa fa-github"></i>  GITHUB</button>
+    <button class="webLink"><i class="fa fa-chain"></i>  SITE</button>
+    <br>
+    <h1>Tic Tac Toe</h1>
+    <img src="TicTacToe.png" alt="Tic Tac Toe Image" height="250" width="250">
+    <br>
+    <h1>Tic Tac Toe</h1>
+    <p>A basic Tic Tac Toe game that can be played either with 2 people sharing a keyboard, or against the game's built in AI. The user can choose whether they would like to be an O or an X. The user will choose a space that has not yet been taken. In response, the AI will analyze the remaining spaces and choose based on which one is most likely to win the game. This continues until either one player gets three X's or O's in a row, or until the grid is filled. If neither player gets three in a row, the game will end in a draw.</p>
+    <br>
+    <button class="gitHub"><i class="fa fa-github"></i>  GITHUB</button>
+    <button class="webLink"><i class="fa fa-chain"></i>  SITE</button>
+    </div>
+    
+    <div class="bottom" id="contact">
+    <h1>Contact</h1>
+     <form name="form1" method="post" action="mailto:tug74661@temple.edu@temple.edu" enctype="text/plain">
+        <label for="name">Name <br></label>
+         <input type="text" id="name" placeholder="Name">
+        <br>
+        <label for="email">Email <br></label>
+         <input type="text" id="email" placeholder="Email">
+         <br>
+        <label for="comments">Comment: <br></label>
+        <textarea id="comments" name="comments" placeholder="Comment" rows="20" cols="45"></textarea>
+        <br>
+         <button type="submit" id="send">Send</button>
+    </form>
+    <div id="socialMedia">
+        <button class="social" id="insta"><i class="fa fa-instagram"></i></button>
+        <button class="social" id="gitHubMain"><i class="fa fa-github"></i></button>
+        <button class="social" id="linkedIn"><i class="fa fa-linkedin"></i></button>
+    
+    </div>
+    
+   <!-- <a href="https://www.instagram.com/__chris275__/">Instagram</a>
+    <a href="https://www.linkedin.com/in/christopher-rinehardt-280b17177/">LinkedIn</a>
+   -->
+</div>
+
+
+
+
+
+</div>
+    <script src="email.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+h1{
+    font-weight: lighter;
+}
+.panel{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 14px 16px;
+    box-shadow:  8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    z-index: 99;   
+}
+button{
+    width: 150px; 
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4753dd;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.gitHub{
+    background-color: white !important;
+    transition-duration: 0.4s;
+    color: black !important;
+    font-weight: bold;
+    border:3px solid #4753dd;
+    border-radius: 20px !important;
+    margin-right: 10%;
+}
+.gitHub :hover{
+    background-color: #4753dd !important;
+}
+.webLink{
+    font-weight: bold;
+    border-radius: 20px !important;
+    border: none;
+}
+.panel a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-right: 5%;
+    text-decoration: none;
+    opacity: 1;
+}
+.main{
+    position: relative;
+    margin-top: 100px;
+    height: 1500px;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 0;    
+}
+.main .introduction {
+    overflow: scroll;
+}
+.introduction{
+    font-size: 80px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.introduction b{
+    color: #4753dd;
+    font-size: 80px;
+}
+#jobTitle{
+    font-size: 16px;
+    color: gray;
+}
+#jobTitle i{
+    color: black;
+}
+#resume{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4753dd;
+}
+#comments{
+    height: 130px;
+    text-align: left;
+    resize: none;
+    position: relative;
+}
+#name,#email{
+    height: 35px;
+}
+#name,#email,#comments{
+
+      border: 2px solid #4753dd;
+      font-size: 16px;
+      padding-left: 7px;
+      padding-right: 7px;
+      border-radius: 7px;
+      width: 315px;
+}
+::placeholder{
+      font-size: 16px;
+      color: rgb(153, 138, 138);
+  }
+#about{
+    background-color: #4753dd;
+    font-size: 20px;font-weight: lighter;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 200%;
+    color: white;
+    display: table;
+    height: 1000px;
+    width: 100%;
+    clip-path: polygon(0% 0, 100% 18%, 100% 82%, 0% 100%);
+    padding: 0%;
+}
+
+#information{
+    margin-top: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.bottom{
+    position:inherit;
+    width: 100%;
+    background-color: rgb(235,235,235);
+    color: rgb(0,0,0);
+    opacity: 1;
+    height: 650px;
+    text-align: center;   
+}
+.bottom h1{
+    padding-top: 30px;
+}
+#send{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4753dd;
+}
+#socialMedia{
+    resize: horizontal !important;
+}
+.social{
+    background-color: rgb(235,235,235);
+    color:#4753dd;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 55px;
+    
+}
+

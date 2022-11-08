@@ -1,0 +1,12 @@
+#name,#email,#comments{
+
+  /*  border-color: blueviolet;*/
+    border-color: black;
+    border-radius: 7px;
+}
+::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: rgb(153, 138, 138);
+    
+}
